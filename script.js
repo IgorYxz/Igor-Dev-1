@@ -12,7 +12,7 @@ function enviarFeedback(feedback) {
   var formData = new FormData();
   formData.append("feedback", feedback);
 
-  fetch("http://seu-servidor.com/rota-de-recebimento", {
+  fetch("", {
     method: "POST",
     body: formData
   })

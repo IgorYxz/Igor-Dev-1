@@ -204,6 +204,28 @@ footer{
 .roda-text samp{
     color: rgb(0, 255, 115);
 }
+ 
+#tick-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #075e54;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  #tick-icon a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
 b{
     text-decoration: underline;
 }
